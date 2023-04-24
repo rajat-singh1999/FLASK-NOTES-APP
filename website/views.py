@@ -3,7 +3,7 @@
 # navigates to goes here
 from flask import Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
-from .models import Note
+from .models import Note, User
 from . import db   ##means from __init__.py import db
 import json
 
